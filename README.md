@@ -4,6 +4,14 @@
 
 This is a template based my preferred [CodePen](https://codepen.io) configuration modified for local development of small web projects. It includes Pug, Sass, BrowserSync and a Gulp process for building and serving.
 
+## Installation
+
+After cloning the repo, navigate to the project directory and type:
+
+```
+npm install
+```
+
 ## Gulp Tasks
 
 - Build project: `gulp build`
