@@ -2,7 +2,7 @@
 
 ---
 
-This is a template based my preferred [CodePen](https://codepen.io) configuration modified for local development of small web projects. It includes Pug, Sass, BrowserSync and a Gulp process for building and serving.
+This is a template based my preferred [CodePen](https://codepen.io) configuration but for local development of small web projects. It includes Pug, Sass, BrowserSync and a Gulp process for building and serving. I use it for creating CSS animations or UI elements.
 
 ## Installation
 
@@ -29,7 +29,7 @@ Note: `gulp copy` respects directory structure, so `/public/images/img.jpg` woul
 project
 ├─── dest       // Destination folder for build and serve
 ├─── public     // Static assets for copying
-├─── src        // Dynamic assets to be processed
+└─── src        // Dynamic assets to be processed
      ├─── sass  // Sass files
-     ├─── pug   // Pug template files
+     └─── pug   // Pug template files
 ```
