@@ -2,7 +2,7 @@
 
 ---
 
-This is a template based my preferred [CodePen](https://codepen.io) configuration for local development of small web projects. It includes Pug, Sass, BrowserSync and a Gulp process for building and serving.
+This is a template based my preferred [CodePen](https://codepen.io) configuration modified for local development of small web projects. It includes Pug, Sass, BrowserSync and a Gulp process for building and serving.
 
 ## Gulp Tasks
 
