@@ -1,10 +1,10 @@
 "use strict";
 
 const gulp = require('gulp');
-const browserSync = require('browser-sync').create();
-const gulpSass = require('gulp-sass')(require('sass'));
 const del = require('del');
 const gulpPug = require('gulp-pug');
+const gulpSass = require('gulp-sass')(require('sass'));
+const browserSync = require('browser-sync').create();
 
 function clean() {
     return del('dest/**');
@@ -25,7 +25,7 @@ function pug() {
 
 function sass() {
     return gulp
-        .src('./src/sass/*.scss')
+        .src('./src/sass/*.{sass,scss}')
         .pipe(gulpSass().on('error', gulpSass.logError))
         .pipe(gulp.dest('./dest'))
         .pipe(browserSync.stream());
@@ -50,7 +50,7 @@ function reload(done) {
 
 function watch() {
     gulp.watch("./src/pug/*.pug", pug);
-    gulp.watch("./src/sass/*.scss", sass);
+    gulp.watch("./src/sass/*.{sass,scss}", sass);
     gulp.watch("./public/**/*", copy);
     gulp.watch("./dest/**/*.{html,js}", reload);
 }
