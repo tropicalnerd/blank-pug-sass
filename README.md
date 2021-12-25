@@ -1,7 +1,5 @@
 # Blank Pug Sass
 
----
-
 This is a template based my preferred [CodePen](https://codepen.io) configuration but for local development of small web projects. It includes Pug, Sass, BrowserSync and a Gulp process for building and serving. I use it for creating CSS animations or UI elements.
 
 ## Installation
